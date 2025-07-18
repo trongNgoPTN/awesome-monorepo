@@ -1,5 +1,5 @@
 import { Placeholder } from '@common/ui';
 
 export function WelcomeView() {
-  return <Placeholder label="Welcome" />;
+  return <Placeholder label="Welcome - Demand side" />;
 }
