@@ -1,0 +1,14 @@
+{
+  "name": "web-apps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "supply": "pnpm --filter supply dev",
+    "demand": "pnpm --filter demand dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0"
+}
