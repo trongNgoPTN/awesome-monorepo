@@ -12,6 +12,7 @@ export function Placeholder({ label = 'Placeholder' }: Props) {
       </Typography>
       <Stack spacing={2} sx={{ py: 2 }} useFlexGap>
         <Skeleton variant="text" sx={{ fontSize: '1rem' }} />
+        <Skeleton variant="text" sx={{ fontSize: '1rem' }} />
         <Skeleton variant="circular" width={100} height={100} />
         <Skeleton variant="rectangular" width="100%" height={30} />
         <Skeleton variant="rounded" width="100%" height={60} />
